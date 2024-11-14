@@ -82,7 +82,7 @@ const Login = () => {
           <MdLockOutline />
         </div>
         <h1 className="login-title">Sign in</h1>
-        
+
         {/* Login Form */}
         <form className="login-form" onSubmit={handleSubmit} noValidate>
           <input
@@ -106,16 +106,17 @@ const Login = () => {
               {showPassword ? <RiEyeFill /> : <RiEyeOffFill />}
             </span>
           </div>
+
+
           <div className="remember-me">
-            <label>
-              <input type="checkbox" />
-              Remember me
-            </label>
+
+            <input type="checkbox" name="Remember me" />
+            Remember me
           </div>
           <button type="submit" className="login-button">
             Sign In
           </button>
-          
+
           {/* Additional Links */}
           <div className="login-links">
             <Link to="/forgotpassword" className="forgot-password">

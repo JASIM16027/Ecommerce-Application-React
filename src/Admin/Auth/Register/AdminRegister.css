@@ -1,0 +1,126 @@
+.admin-register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f6f9;
+}
+
+.admin-register-box {
+    width: 100%;
+    max-width: 400px;
+    padding: 2rem;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.admin-register-avatar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1976d2;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin: 0 auto 1rem;
+}
+
+.icon-lock {
+    color: #ffffff;
+    font-size: 24px;
+}
+
+.admin-register-title {
+    font-size: 24px;
+    font-weight: 500;
+    color: #333333;
+    margin-bottom: 1rem;
+}
+
+.admin-register-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.input-group input {
+    width: 100%;
+}
+
+.admin-register-form input {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.password-toggle {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #555555;
+}
+
+.input-group {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-group {
+    display: inline-flex;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.checkbox-group input { 
+    margin-right: 5px;
+    width: 15px;    
+  }
+  
+
+.admin-register-button {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #1976d2;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.admin-register-button:hover {
+    background-color: #1565c0;
+}
+
+.redirect {
+    margin-top: 1rem;
+    font-size: 0.875rem;
+    color: #555555;
+}
+
+.login-link {
+    color: #1976d2;
+    font-weight: 600;
+    text-decoration: none;
+    margin-left: 0.5rem;
+}
+
+.login-link:hover {
+    text-decoration: underline;
+}
